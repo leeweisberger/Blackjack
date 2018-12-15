@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/** Represents a deck of cards. Each deck can contain multiple "standard" (52 card) decks. */
+/**
+ * Represents a deck of cards. Each deck can contain multiple "standard" (52
+ * card) decks.
+ */
 public class Deck {
     private List<Card> cards;
     private int numStandardDecks;
@@ -22,7 +25,7 @@ public class Deck {
     /** Deals the provided number of cards */
     public Card[] dealCards(int numCards) {
         Card[] cardsToDeal = new Card[numCards];
-        for (int i = 0; i<numCards; i++) {
+        for (int i = 0; i < numCards; i++) {
             if (isEmpty()) {
                 System.out.println("Reshuffling...");
                 init();

@@ -9,7 +9,7 @@ public class InputUtil {
                 int intInput = Integer.parseInt(input);
                 if (intInput > 0) {
                     return intInput;
-                } else  {
+                } else {
                     System.out.println("Please enter a number greater than 0.");
                 }
             } catch (NumberFormatException e) {
@@ -24,7 +24,8 @@ public class InputUtil {
         } catch (InterruptedException e) {
         }
         System.out.println();
-        System.out.println("------------------------------------------------------------------------------------------");
+        System.out
+                .println("------------------------------------------------------------------------------------------");
         System.out.println();
     }
 

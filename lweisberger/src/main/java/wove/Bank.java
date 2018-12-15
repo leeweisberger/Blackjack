@@ -30,8 +30,6 @@ public class Bank {
             int bet = InputUtil.getIntInput();
             if (player.makeBet(bet)) {
                 break;
-            } else {
-                System.out.println(String.format("You only have $%s left!", player.getMoney()));
             }
         }
     }

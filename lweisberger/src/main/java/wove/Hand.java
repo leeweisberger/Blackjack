@@ -45,7 +45,7 @@ public class Hand {
         hand1.hit(deck);
         InputUtil.printSlowly("Hitting second split...");
         hand2.hit(deck);
-        return new Hand[]{hand1, hand2};
+        return new Hand[] { hand1, hand2 };
     }
 
     /** Adds a bet to this hand. */
