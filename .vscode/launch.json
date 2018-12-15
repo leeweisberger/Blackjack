@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Game",
+            "request": "launch",
+            "mainClass": "wove.Game",
+            "projectName": "lweisberger",
+            "console": "integratedTerminal",
+        }
+    ]
+}
